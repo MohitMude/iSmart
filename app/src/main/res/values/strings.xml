@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">iSmart</string>
+    <string name="signing_up">signing up...</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_phone_no">Enter phone no</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="logging_you_in">Logging you in...</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or">Or</string>
+    <string name="select_country">Select country</string>
+    <string name="select_state">Select state</string>
+    <string name="select_city">Select city</string>
+    <string name="select_mine">Select mine</string>
+    <string name="doesn_t_have_an_account">Doesn\'t have an account?</string>
+    <string name="select_gateway">Select gateway</string>
+    <string name="select_date">Select date</string>
+
+    <string-array name="gender_spinner">
+        <item>Select gender</item>
+        <item>male</item>
+        <item>female</item>
+        <item>other</item>
+    </string-array>
+</resources>

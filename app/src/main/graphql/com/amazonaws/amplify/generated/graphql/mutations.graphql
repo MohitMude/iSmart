@@ -1,0 +1,52 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateMine(
+  $input: CreateMineInput!
+  $condition: ModelMineConditionInput
+) {
+  createMine(input: $input, condition: $condition) {
+    id
+    name
+    state
+    city
+    gateways
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateMine(
+  $input: UpdateMineInput!
+  $condition: ModelMineConditionInput
+) {
+  updateMine(input: $input, condition: $condition) {
+    id
+    name
+    state
+    city
+    gateways
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteMine(
+  $input: DeleteMineInput!
+  $condition: ModelMineConditionInput
+) {
+  deleteMine(input: $input, condition: $condition) {
+    id
+    name
+    state
+    city
+    gateways
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,43 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateMine {
+  onCreateMine {
+    id
+    name
+    state
+    city
+    gateways
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateMine {
+  onUpdateMine {
+    id
+    name
+    state
+    city
+    gateways
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteMine {
+  onDeleteMine {
+    id
+    name
+    state
+    city
+    gateways
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

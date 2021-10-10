@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddMineActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mine_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mine name"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:padding="4dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_txt_mine_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mine_state_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter state"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:padding="4dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_txt_mine_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mine_city_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter city"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:padding="4dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_txt_mine_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mine_gateway_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter gateway"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:padding="4dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_txt_mine_gateway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_submit_mine_detail"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_curve_background"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+type Mine @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  state: String!
+  city: String!
+  gateways: [AWSJSON]
+}

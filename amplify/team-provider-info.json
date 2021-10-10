@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ismart-dev-134443-authRole",
+      "UnauthRoleArn": "arn:aws:iam::320494870196:role/amplify-ismart-dev-134443-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::320494870196:role/amplify-ismart-dev-134443-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-ismart-dev-134443-deployment",
+      "UnauthRoleName": "amplify-ismart-dev-134443-unauthRole",
+      "StackName": "amplify-ismart-dev-134443",
+      "StackId": "arn:aws:cloudformation:ap-south-1:320494870196:stack/amplify-ismart-dev-134443/e3e39bc0-e60d-11eb-97f7-0243fc305642",
+      "AmplifyAppId": "dxqiw1406cfie"
+    },
+    "categories": {
+      "auth": {
+        "ismart52f7eb0b": {}
+      }
+    }
+  }
+}

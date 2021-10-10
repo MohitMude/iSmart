@@ -1,0 +1,65 @@
+# this is an auto generated file. This will be overwritten
+query GetMine($id: ID!) {
+  getMine(id: $id) {
+    id
+    name
+    state
+    city
+    gateways
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+query ListMines(
+  $filter: ModelMineFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listMines(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      state
+      city
+      gateways
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncMines(
+  $filter: ModelMineFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncMines(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      name
+      state
+      city
+      gateways
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}

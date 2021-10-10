@@ -1,0 +1,17 @@
+projects:
+  ismart-staging:
+    schemaPath: app/src/main/graphql/schema.json
+    includes:
+      - app/src/main/graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: ''
+        generatedFileName: ''
+        docsFilePath: app/src/main/graphql/com/amazonaws/amplify/generated/graphql
+        region: ap-south-1
+        apiId: fspob5bb35hphcmqjraf7mypte
+extensions:
+  amplify:
+    version: 3
